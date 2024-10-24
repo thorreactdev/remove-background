@@ -6,11 +6,13 @@ import userRoute from "./router/userRouter.js";
 import path from "path";
 import cookieParser from "cookie-parser";
 import protectedRoute from "./router/protectedRoute.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 
 mongoose
   .connect(
-    "mongodb+srv://prajapativinay140404:vinay@removebackground.5ks9x.mongodb.net/remove_bg?retryWrites=true&w=majority&appName=removebackground"
+    process.env.MONGO_DB
   )
   .then(() => console.log("DB Connected"))
   .catch((err) => console.log("Error connecting DB", err));
