@@ -1,0 +1,19 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "title": "Upload Image",
+      "description": "Upload the image by clicking the 'Upload' button or dragging and dropping the file into the background remover tool."
+    },
+    {
+      "step": 2,
+      "title": "Remove Background",
+      "description": "The tool will automatically remove the background within seconds."
+    },
+    {
+      "step": 3,
+      "title": "Download Image",
+      "description": "Click the 'Download' button to save the image with the background removed."
+    }
+  ]
+}

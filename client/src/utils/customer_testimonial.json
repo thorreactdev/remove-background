@@ -1,0 +1,26 @@
+{
+    "testimonials": [
+      {
+        "name": "John Doe",
+        "designation": "Software Engineer",
+        "company": "Tech Solutions Inc.",
+        "testimonial": "The service provided was exceptional! The team was professional and exceeded my expectations at every turn. I highly recommend their work.",
+        "image": "/pic1.png"
+      },
+      {
+        "name": "Jane Smith",
+        "designation": "Marketing Manager",
+        "company": "Creative Minds",
+        "testimonial": "Working with this team was an absolute pleasure. Their attention to detail and dedication to delivering a high-quality product was impressive.",
+        "image": "/pic2.png"
+      },
+      {
+        "name": "Samuel Lee",
+        "designation": "CEO",
+        "company": "Innovatech",
+        "testimonial": "A fantastic experience from start to finish. The communication was excellent, and the end result truly speaks for itself. Highly recommended!",
+        "image": "/pic3.png"
+      }
+    ]
+  }
+  
