@@ -1,11 +1,13 @@
 // import { Button } from "@/components/ui/button";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./layout/AppLayout";
-import HomePage from "./pages/HomePage";
+// import HomePage from "./pages/HomePage";
 import ResultPage from "./pages/ResultPage";
 import Profile from "./pages/Profile";
 import SingleImage from "./pages/SingleImage";
 import Protected from "./secure/Protected";
+import MainLandingPage from "./pages/MainLandingPage";
+import CategoryBasedFrontend from "./Category/CategoryBasedFrontend";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +15,7 @@ const router = createBrowserRouter([
     children : [
       {
         path : "/",
-        element : <HomePage/>
+        element : <MainLandingPage/>
       },
       {
         path : "/result",
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
         <Protected>
           <SingleImage/>
         </Protected>
+      },
+      {
+        path : "/category/:id",
+        element : <CategoryBasedFrontend/>
       }
     ]
   }

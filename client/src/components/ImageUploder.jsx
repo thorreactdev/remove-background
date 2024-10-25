@@ -7,12 +7,12 @@ const ImageUploder = () => {
     // const [preview, setPreview] = useState(null);
     // const [message, setMessage] = useState("");
   return (
-    <div className="upload-container">
+    <div className="upload-container mt-10">
     <h2 className="text-center text-xl md:text-3xl lg:text-4xl font-bold text-regal_blue">Upload Image and See the Magic . <br/> Try Now</h2>
     <div
       className="drop-zone shadow-xl border flex items-center justify-center"
     >
-      <Upload/>
+      <Upload apiLink="/api/reimagine"/>
     </div>
   </div>
   )

@@ -4,12 +4,13 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "@/components/hooks/use-toast";
 import { useSelector } from "react-redux";
 
-const Upload = () => {
+const Upload = ({apiLink}) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const fileref = useRef();
   const { toast } = useToast();
   const { currentUser } = useSelector((state)=> state.user);
+  console.log(apiLink);
 
  
 
@@ -48,7 +49,7 @@ const Upload = () => {
 
     try {
       setLoading(true);
-      const res = await fetch("/api/remove-bg", {
+      const res = await fetch(apiLink, {
         method: "POST",
         body: formData,
       });

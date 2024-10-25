@@ -1,0 +1,23 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Effortless Background Removal",
+      "description": "Remove unwanted backgrounds in seconds, giving your images a clean, professional look. Perfect for product photos, portraits, and more"
+    },
+    {
+      "id": 2,
+      "name": "Reimagine Your Images",
+      "description": "Transform your photos with creative effects and new backgrounds. Turn ordinary images into stunning visual masterpieces with ease."
+    },
+    {
+      "id": 3,
+      "name": "Product Photography",
+      "description": "The API transforms any picture of your object into a professional product picture complete with a shadow as if it was taken in a studio"
+    },
+    {
+      "name": "More Loading....",
+      "description": "More To come Stay Updated"
+    }
+  ]
+}

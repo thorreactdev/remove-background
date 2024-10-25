@@ -31,7 +31,7 @@ const ResultPage = () => {
 
         {/* Processed Image (Background Removed) */}
         <div className="flex flex-col gap-4 cursor-pointer">
-          <h2 className="text-xl font-bold text-regal_blue">Background Removed</h2>
+          <h2 className="text-xl font-bold text-regal_blue">Processed Image</h2>
           <div className="bg-[url('/bg_layer.png')] bg-cover bg-no-repeat bg-center overflow-hidden rounded-md ">
           <img
             src={processedImage}

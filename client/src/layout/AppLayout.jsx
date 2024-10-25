@@ -5,18 +5,18 @@ import Footer from '@/components/Footer'
 
 const AppLayout = () => {
   return (
-    <>
+    <div  className="flex flex-col min-h-screen">
     <Toaster/>
     <header className=' bg-white shadow-xl'>
         <Header/>
     </header>
-    <main className='max-w-7xl mx-auto min-h-screen'>
+    <main className='flex-grow max-w-7xl mx-auto'>
         <Outlet/>
     </main>
     <footer className='shadow-xl bg-white border mt-10'>
       <Footer/>
     </footer>
-    </>
+    </div>
   )
 }
 

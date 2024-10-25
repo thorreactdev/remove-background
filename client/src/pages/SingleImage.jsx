@@ -34,7 +34,7 @@ const SingleImage = () => {
 
   return (
     <>
-    {loading && (
+    {loading ? (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
         <div className="flex flex-col items-center">
           {/* Loader */}
@@ -61,8 +61,8 @@ const SingleImage = () => {
           <p className="text-white mt-2 font-semibold">Wait Fetching Image...</p>
         </div>
       </div>
-    )}
-    <div className="mt-10">
+    ) :(
+      <div className="mt-10">
     <div className="bg-[url('/bg_layer.png')] bg-cover bg-center flex items-center justify-center">
         <img src={backData?.processedImage} alt="" className="w-1/2 h-auto"/>
     </div>
@@ -79,6 +79,9 @@ const SingleImage = () => {
       </a>
     </div>
     </div>
+    )
+  }
+    
     </>
   )
 }

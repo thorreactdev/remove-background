@@ -23,7 +23,7 @@ const HeroSection = () => {
         </p>
         <div>
           <Protected>
-          <Upload/>
+          <Upload apiLink="/api/remove-bg"/>
           </Protected>
         </div>
       </div>
